@@ -3,7 +3,7 @@
 //  PawAppsExample_CCTransition
 //
 //  Created by Jason Pawlak on 7/30/11.
-//  Copyright __MyCompanyName__ 2011. All rights reserved.
+//  Copyright Paw Apps LLC 2011. All rights reserved.
 //
 
 
@@ -17,5 +17,6 @@
 
 // returns a CCScene that contains the HelloWorldLayer as the only child
 +(CCScene *) scene;
+-(void) doTransition:(id)sender;
 
 @end
